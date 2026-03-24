@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background: #b8e4e1;
+    margin: 0;
+  }
+
+  .card {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+    overflow: hidden;
+  }
+
+  .left-panel {
+    width: 38%;
+    background: #b8e4e1;
+    padding: 44px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1a1a2e;
+  }
+
+  .tagline {
+    font-size: 0.95rem;
+    color: #2e5c59;
+    line-height: 1.6;
+  }
+
+  .right-panel {
+    width: 62%;
+    background: #ffffff;
+    padding: 48px 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 40px 0 0 40px;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    color: #1a1a2e;
+    margin-bottom: 8px;
+  }
+
+  .social-buttons {
+    display: flex;
+    gap: 12px;
+  }
+
+  .btn-social {
+    flex: 1;
+    padding: 11px 16px;
+    border: 1.5px solid #d8d8e8;
+    border-radius: 10px;
+    background: white;
+    font-size: 0.82rem;
+    cursor: pointer;
+  }
+
+  .btn-social:hover {
+    border-color: #7fcec8;
+    background: #f7fdfc;
+  }
+  
+  .divider {
+    text-align: center;
+    color: #8a8a9a;
+    font-size: 0.78rem;
+  }
+
+  input {
+    width: 100%;
+    padding: 13px 16px;
+    border: 1.5px solid #d8d8e8;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    outline: none;
+  }
+
+  input:focus {
+    border-color: #7fcec8;
+    box-shadow: 0 0 0 3px rgba(127, 206, 200, 0.18);
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 14px;
+    background: #7fcec8;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .btn-primary:hover {
+    background: #5bb8b1;
+  }
+
+  .login-hint {
+    text-align: center;
+    font-size: 0.83rem;
+    color: #8a8a9a;
+  }
+  
+  .login-hint a {
+    color: #5bb8b1;
+    font-weight: 600;
+    text-decoration: none;
+  }
